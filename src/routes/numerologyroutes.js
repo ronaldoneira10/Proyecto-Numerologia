@@ -5,7 +5,7 @@ const {
     profile
 } = require("../controllers/numerologycontroller");
 
-const authMiddleware = require("../middlewares/authMiddleware");
+const authMiddleware = require("../middlewares/authmiddleware");
 
 const router = express.Router();
 
