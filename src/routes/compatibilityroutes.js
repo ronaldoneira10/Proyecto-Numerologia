@@ -4,7 +4,7 @@ const {
     check
 } = require("../controllers/compatibilitycontroller");
 
-const authMiddleware = require("../middlewares/authMiddleware");
+const authMiddleware = require("../middlewares/authmiddleware");
 
 const router = express.Router();
 
